@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">Transactor</string>
+
+    <string name="versionName">V %s</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="bluetooth_not_supported">Bluetooth is not supported.</string>
+    <string name="init">Init</string>
+    <string name="bank_param_download">Bank Parameters Downloads</string>
+    <string name="pay">Pay</string>
+    <string name="mdm_checkUpdate">MDM check update</string>
+    <string name="update">update</string>
+    <string name="mdm_send_log">MDM Send Log</string>
+    <string name="close">close</string>
+    <string name="ucube_touch">uCube Touch</string>
+    <string name="ucube">uCube</string>
+    <string name="settings">Settings</string>
+    <string name="reset">reset</string>
+    <string name="progress">%s progress…</string>
+    <string name="scan">Scan</string>
+    <string name="setup">Setup</string>
+    <string name="Test">Test</string>
+    <string name="auto_cancel">Auto cancel at</string>
+    <string name="auto_disconnect">Auto disconnect at</string>
+    <string name="delete_selected_ucube">Delete selected uCube</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="ok">OK</string>
+    <string name="mandatory">(Mandatory)</string>
+    <string name="cancel">Cancel</string>
+    <string name="logo_YT_description">Logo YT</string>
+
+    <string name="title_scan_devices">uCube Touch Devices Discovery</string>
+    <string name="title_list_devices">Paired Devices</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <!-- menu -->
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+    <!-- ERRORS -->
+    <string name="error_setup">Error setup!</string>
+    <string name="error_set_mandatory_field">Mandatory field</string>
+    <string name="error_wrong_value">Wrong value</string>
+
+    <!--Bluetooth -->
+    <string name="enable_bt_msg">This app needs Bluetooth to work without any problems.</string>
+    <string name="enable_bt_yes_label">Yes, Enable Bluetooth</string>
+    <string name="enable_bt_no_label">No, Close</string>
+
+    <!--setup -->
+    <string name="setup_progress">Setup progress…</string>
+
+    <!--SEND LOG message -->
+    <string name="send_log_progress">Send Log progress…</string>
+    <string name="send_log_failed">Send Logs failed</string>
+    <string name="send_log_success">Send Logs success</string>
+
+    <!--connect message-->
+    <string name="connect_progress">Connect progress…</string>
+    <string name="connect_failed">Connect failed Msg : %s Code : %d</string>
+    <string name="connect_success">Connect success</string>
+    <string name="connection_cancelled">Connection cancelled</string>
+
+    <!-- disconnect message-->
+    <string name="disconnect_progress">Disconnect progress…</string>
+    <string name="disconnect_failed">Disconnect failed</string>
+    <string name="disconnect_success">Disconnect success</string>
+
+    <!-- delete selected ucube -->
+    <string name="delete_ucube_progress">Delete ucube progress…</string>
+    <string name="delete_ucube_failed">Delete ucube failed</string>
+    <string name="delete_ucube_success">Delete ucube success</string>
+
+    <!-- register message -->
+    <string name="register_progress">Register progress</string>
+    <string name="register_success">Register success</string>
+    <string name="register_failed">Register Failed</string>
+
+    <!-- get config message -->
+    <string name="get_config_progress">Get config progress</string>
+    <string name="get_config_success">Get config success</string>
+    <string name="get_config_failed">Get config Failed</string>
+
+    <!-- check update message -->
+    <string name="check_update_progress">Check update progress…</string>
+    <string name="check_update_failed">Check update failed</string>
+    <string name="check_update_success">Check update success</string>
+    <string name="ucube_up_to_date">"uCube is up to date"</string>
+    <string name="list_update_dialog_title">Binaries to update</string>
+
+    <!--update message -->
+    <string name="update_progress">Update progress…</string>
+    <string name="update_failed">Update failed</string>
+    <string name="update_success">Update success</string>
+
+    <!-- ucube info -->
+    <string name="ucube_model">Model: %s</string>
+    <string name="ucube_name">Name: %s</string>
+    <string name="ucube_address">Address: %s</string>
+    <string name="ucube_serial_num">Serial Number: %s</string>
+    <string name="ucube_part_number">Part Number: %s</string>
+    <string name="ucube_firmware_version">SVPP version: %s</string>
+    <string name="ucube_firmware_st_version">Firmware ST version: %s</string>
+    <string name="ucube_icc_config">ICC config: %s</string>
+    <string name="ucube_nfc_config">NFC config: %s</string>
+    <string name="nfc_not_supported">NFC NOT SUPPORTED</string>
+
+    <!--Payment -->
+    <string name="card_wait_timeout">Card wait timeout</string>
+    <string name="_30">30</string>
+    <string name="s">(s)</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="enter_amount_on_ucube">Enter amount on uCube</string>
+    <string name="amount">Amount</string>
+    <string name="use_single_entry_point">Use single entry point</string>
+    <string name="mag_stripe">Mag stripe</string>
+    <string name="chip">Chip</string>
+    <string name="nfc">NFC</string>
+    <string name="force_online_pin">Force online PIN</string>
+    <string name="start_payment">Pay</string>
+    <string name="_00_00">00.00</string>
+    <string name="_1_00">1.00</string>
+    <string name="payment_progress_with_amount">Make payment of %.2f %s</string>
+    <string name="payment_progress_without_amount">Make payment in %s</string>
+    <string name="payment_failed">Please Check the input parameters, Payment failed!</string>
+    <string name="display">Display</string>
+    <string name="contact_only">Contact Only</string>
+    <string name="display_result_on_ucube">Display result on uCube</string>
+    <string name="force_authorisation">Force Authorisation</string>
+    <string name="cancel_pay">Cancel current payment</string>
+
+    <!--RPC DISPLAY -->
+    <string name="display_msg">Display message</string>
+    <string name="display_msg_failure">Message display failure</string>
+    <string name="display_msg_success">Message displayed successfully</string>
+
+    <string name="set_power_off_timeout_value">Set power off timeout</string>
+    <string name="set_power_off_timeout_failed"> Set power off timeout failed</string>
+    <string name="set_power_off_timeout_cancelled"> Set power off timeout cancelled</string>
+    <string name="set_power_off_timeout_success"> Set power off timeout success</string>
+
+    <string name="setup_quick_mode">Setup Quick mode</string>
+    <string name="setup_slow_mode">Setup Slow mode</string>
+
+    <string name="get_supported_locales">Get supported locales</string>
+    <string name="get_supported_locale_list_failed">Get Supported locale liste failed</string>
+    <string name="supported_locale_list_is_empty">Supported locale list is empty</string>
+    <string name="set_locale_failed"> set locale failed</string>
+    <string name="set_locale_success"> set locale success</string>
+
+    <string name="display_qr_code">Display QR CODE</string>
+    <string name="display_qr_code_failure">QR CODE display failure</string>
+    <string name="display_qr_code_cancelled">QR CODE display cancelled</string>
+    <string name="display_qr_code_success">QR CODE displayed successfully</string>
+
+    <string name="enter_secure_session">Enter secure session</string>
+    <string name="enter_secure_session_failure">Enter secure session failure</string>
+    <string name="enter_secure_session_success">Enter secure session successfully</string>
+
+    <string name="exit_secure_session">exit secure session</string>
+    <string name="exit_secure_session_failure">exit secure session failure</string>
+    <string name="exit_secure_session_success">exit secure session successfully</string>
+
+    <string name="get_terminal_state">get terminal state</string>
+    <string name="get_terminal_state_failure">get terminal state failure</string>
+    <string name="get_terminal_state_success">get terminal state successfully</string>
+
+    <!-- GET INFO -->
+    <string name="get_info">Get Info</string>
+    <string name="terminal_serial_number">Terminal SN : </string>
+    <string name="part_number">Terminal PN : </string>
+    <string name="automatic_power_off_time_out">Power off Timeout : </string>
+    <string name="NFC_capability">NFC Capability : </string>
+    <string name="NFC_Firmware_Version"> NFC Firmware Version: </string>
+    <string name="NFC_Firmware_State"> NFC_Firmware_State : </string>
+    <string name="EMVL1_Cell_Lib_Version"> EMVL1 Cless Lib Version: </string>
+    <string name="Test_LoopBack_Version">Test LoopBack Version: </string>
+    <string name="AGNOS_LIB_Version">AGNOS LIB Version : </string>
+    <string name="ACE_Layer_Version">ACE Layer Version : </string>
+    <string name="default_dongle_model">Use as default</string>
+    <string name="enable_test">Enable test</string>
+    <string name="GPI_Version"> GPI Version: </string>
+    <string name="EMLV3_Version"> EMLV3 Version : </string>
+    <string name="USB_capability">USB Capability : </string>
+    <string name="OS_version">OS Version : </string>
+    <string name="emv_configuration_version">ICC Config Version : </string>
+    <string name="emv_cless_configuration_version">NFC Config Version : </string>
+    <string name="NFC_Module_state">NFC Module State : </string>
+    <string name="terminal_state">Terminal state : </string>
+    <string name="battery_state">Battery Level : </string>
+    <string name="SVPP_version">SVPP version : </string>
+    <string name="BLE_version">BLE version : </string>
+    <string name="get_info_progress">Get Info Failed</string>
+    <string name="get_info_failed">Get Info Failed</string>
+    <string name="refresh">Refresh</string>
+    <string name="model">Model</string>
+    <string name="mdm_register">MDM Register</string>
+    <string name="mdm_config">MDM Configuration</string>
+    <string name="cancel_payment">Cancel</string>
+    <string name="second_symbol">(s)</string>
+    <string name="_180">180</string>
+    <string name="set_power_off_timeout">Set power off timeout</string>
+    <string name="power_off_timeout_val">val 0 or <![CDATA[> 32 and < 255]]></string>
+    <string name="get_logs_l1">Tag 0xCB</string>
+    <string name="get_logs_l1_failure">Get Logs L1 failed</string>
+    <string name="get_logs_l1_success">Get Logs L1 Success</string>
+    <string name="force_debug">Force debug</string>
+    <string name="_0">0</string>
+    <string name="start_cancel_after">start cancel after :</string>
+    <string name="ms">ms</string>
+    <string name="_10">10</string>
+    <string name="_200">200</string>
+    <string name="_1000">1000</string>
+    <string name="scan_ucube_touch_filter">Scan Filter : </string>
+    <string name="utouch_filter">uTouch</string>
+    <string name="resources_file_version">Resources file version</string>
+    <string name="supported_locale_list">Supported locale list :</string>
+    <string name="merchant_locale">Merchant locale :</string>
+    <string name="locale">Locale</string>
+    <string name="set_locale">Set locale</string>
+    <string name="hello_world">Hello world</string>
+    <string name="qr_code_data">QR CODE DATA</string>
+    <string name="qr_code">QR CODE</string>
+    <string name="daemon_tool">Daemon tool</string>
+    <string name="start_daemon">start Daemon</string>
+    <string name="stop_daemon">stop Daemon</string>
+    <string name="skip_card_removal">skip card removal</string>
+    <string name="command_delay">command delay</string>
+    <string name="ticket_to_repoduce">Ticket to repoduce</string>
+    <string name="delay_between_runs">delay between runs</string>
+    <string name="number_of_runs">number of runs</string>
+    <string name="delay">delay</string>
+    <string name="select_log_file">select log file</string>
+    <string name="skip_starting_steps">skip starting steps</string>
+    <string name="charging_state">Charging state</string>
+    <string name="retrieve_f5_tag">Retrieve F5 tag</string>
+    <string name="run_logs">run logs</string>
+    <string name="battery_level">Battery Level :  %1$d %%</string>
+    <string name="getstatus">Get Status</string>
+    <string name="repeat_last_pkt">Repeat last PKT</string>
+    <string name="_15">15</string>
+    <string name="connection_timeout">Timeout</string>
+    <string name="log_level">Log level</string>
+    <string name="enable_sdk_logs">enable SDK Logs</string>
+
+
+    <string name="enter_sec">enter sec</string>
+    <string name="exit_sec">exit sec</string>
+    <string name="get_state">get State</string>
+    <string name="slow_mode">slow mode</string>
+    <string name="quick_mode">Quick mode</string>
+    <string name="enable_recovery_mechanism">Enable recovery mechanism</string>
+    <string name="enable_measures">enable measures</string>
+    <string name="rpc_timeout">RPC Timeout</string>
+    <string name="_3">3</string>
+
+    <string name="measure_start_to_waiting_card">From Start To waiting card: %d</string>
+    <string name="measure_present_card_to_auth">From User Present Card To Authorisation: %d</string>
+    <string name="measure_auth_resp_to_finish">From Authorisation Resp To Finish: %d</string>
+    <string name="measure_present_card_to_enter_pin">From User Insert Card to Enter pin: %d</string>
+    <string name="measure_enter_pin_to_auth">From Enter Pin To Authorisation: %d</string>
+    <string name="u_validate_pin">U validate pin</string>
+    <string name="u_present_card">U present card</string>
+    <string name="cr_enter_pin">CR enter pin</string>
+
+    <string name="device_get_stuck">Device get stuck, SVPP Restart!</string>
+    <string name="lost_packet">Lost packet!</string>
+    <string name="set">set</string>
+    <string name="configure">configure</string>
+    <string name="get_cb_command_failed"> Get CB Tag:\n %s Failed !</string>
+    <string name="speed_mode">speed mode</string>
+</resources>
